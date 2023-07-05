@@ -20,7 +20,6 @@ def logic():
         if player1_choice in used_val:
             continue
 
-        # spot = no_spot_left()
         if no_spot_left():
             print('No one won')
             break
